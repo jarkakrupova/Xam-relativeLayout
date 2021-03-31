@@ -12,6 +12,7 @@ namespace UI_prvky
         Button btnButton;
         TextView lbPopisek;
         CheckBox cbCheckbox;
+        EditText tbText;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -22,8 +23,14 @@ namespace UI_prvky
             btnButton = FindViewById<Button>(Resource.Id.btnButton);
             lbPopisek = FindViewById<TextView>(Resource.Id.lbPopisek);
             cbCheckbox = FindViewById<CheckBox>(Resource.Id.cbCheckbox);
+            tbText = FindViewById<EditText>(Resource.Id.tbText);
             btnButton.Click += BtnButton_Click;
             cbCheckbox.Click += CbCheckbox_Click;
+            tbText.Click += TbText_Click;
+        }
+
+        private void TbText_Click(object sender, System.EventArgs e) {
+            lbPopisek.Text = "Zacina se psat do textoveho pole (EditText)";
         }
 
         private void CbCheckbox_Click(object sender, System.EventArgs e) {

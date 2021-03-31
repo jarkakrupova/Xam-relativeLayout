@@ -44,6 +44,24 @@
                 android:text="Zaskrtni"
                 android:padding="10dp"/>
         </LinearLayout>
+        <LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+            <TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+                android:text="EditText"
+                android:textSize="18sp"/>
+            <EditText
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+                android:inputType="text"
+                android:minWidth="100dp"
+                android:id="@+id/tbText"/>
+            </LinearLayout>
     </LinearLayout>
 
 
