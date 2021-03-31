@@ -12,6 +12,7 @@ external-path;C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher_round.xml
 CheckBox;obj\Debug\110\res\layout\activity_main.xml
+ImageView;obj\Debug\110\res\layout\activity_main.xml
 item;obj\Debug\110\res\values\styles.xml
 LinearLayout;obj\Debug\110\res\layout\activity_main.xml
 paths;C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml

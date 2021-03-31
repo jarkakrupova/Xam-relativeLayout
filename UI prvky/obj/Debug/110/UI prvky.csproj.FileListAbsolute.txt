@@ -306,3 +306,6 @@ C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\stamp\_Con
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\UI prvky.csprojAssemblyReference.cache
+C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\res\drawable\cat.png
+C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\res\drawable\dog.png

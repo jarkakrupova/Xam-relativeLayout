@@ -1,4 +1,5 @@
 ﻿using Android.App;
+using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
 using Android.Widget;
@@ -16,6 +17,7 @@ namespace UI_prvky
         Switch swPrepinac;
         RadioButton rbCervena;
         RadioButton rbModra;
+        ImageView ivImage;
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
@@ -24,6 +26,9 @@ namespace UI_prvky
 
             SetupReferences();
             SubscribeEventHandlers();
+
+            ivImage.SetImageBitmap(Bitmap.CreateScaledBitmap(BitmapFactory.DecodeResource(Resources, Resource.Drawable.cat), 200, 300, false));
+
         }
 
         private void SubscribeEventHandlers() {
@@ -60,6 +65,7 @@ namespace UI_prvky
             swPrepinac = FindViewById<Switch>(Resource.Id.swPrepinac);
             rbCervena = FindViewById<RadioButton>(Resource.Id.rbCervena);
             rbModra = FindViewById<RadioButton>(Resource.Id.rbModra);
+            ivImage = FindViewById<ImageView>(Resource.Id.ivImage);
         }
 
         private void TbText_Click(object sender, System.EventArgs e) {
