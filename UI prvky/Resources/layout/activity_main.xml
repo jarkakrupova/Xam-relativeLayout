@@ -133,32 +133,53 @@
 		<LinearLayout
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center_horizontal"
-            android:padding="10dp">
-            <TextView
+			android:orientation="vertical"
+			android:gravity="center_horizontal"
+			android:padding="10dp">
+			<TextView
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-                android:text="TextClock"
-                android:textSize="18sp"/>
+				android:text="TextClock"
+				android:textSize="18sp"/>
 			<TextClock
-				 android:layout_width="wrap_content"
-				 android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
 				android:text="10:00"
 				android:textSize="16sp"
 				android:textColor="#aa0027"/>
-			</LinearLayout>
-	</LinearLayout>
-	
+		</LinearLayout>
 		<LinearLayout
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:padding="10dp">
-		<TextView
-			android:layout_width="wrap_content"
+			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="Zde je popisek"
-			android:textSize="20dp"
-			android:id="@+id/lbPopisek"/>
+			android:orientation="horizontal"
+			android:padding="10dp">
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:gravity="center_horizontal"
+				android:padding="10dp">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Checkbox"
+					android:textSize="18sp"/>
+				<Switch
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/swPrepinac"/>
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="10dp">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Zde je popisek"
+				android:textSize="20dp"
+				android:id="@+id/lbPopisek"/>
+		</LinearLayout>
 	</LinearLayout>
-</LinearLayout>
