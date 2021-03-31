@@ -149,7 +149,7 @@
 				android:textColor="#aa0027"/>
 		</LinearLayout>
 		<LinearLayout
-			android:layout_width="match_parent"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:orientation="horizontal"
 			android:padding="10dp">
@@ -168,6 +168,38 @@
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:id="@+id/swPrepinac"/>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="10dp">
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:gravity="center_horizontal"
+				android:padding="10dp">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="RadioButton"
+					android:textSize="18sp"/>
+				<RadioGroup
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<RadioButton
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="cervena"
+						android:id="@+id/rbCervena"/>
+					<RadioButton
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="modra"
+						android:id="@+id/rbModra"/>
+				</RadioGroup>
 			</LinearLayout>
 		</LinearLayout>
 	</LinearLayout>
