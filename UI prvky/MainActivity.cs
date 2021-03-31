@@ -14,6 +14,8 @@ namespace UI_prvky
         CheckBox cbCheckbox;
         EditText tbText;
         Switch swPrepinac;
+        RadioButton rbCervena;
+        RadioButton rbModra;
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
@@ -29,6 +31,16 @@ namespace UI_prvky
             cbCheckbox.Click += CbCheckbox_Click;
             tbText.Click += TbText_Click;
             swPrepinac.Click += SwPrepinac_Click;
+            rbCervena.Click += RbCervena_Click;
+            rbModra.Click += RbModra_Click;
+        }
+
+        private void RbModra_Click(object sender, System.EventArgs e) {
+            lbPopisek.Text = "Vybrana barva modra";
+        }
+
+        private void RbCervena_Click(object sender, System.EventArgs e) {
+            lbPopisek.Text = "Vybrana barva cervena";
         }
 
         private void SwPrepinac_Click(object sender, System.EventArgs e) {
@@ -46,6 +58,8 @@ namespace UI_prvky
             cbCheckbox = FindViewById<CheckBox>(Resource.Id.cbCheckbox);
             tbText = FindViewById<EditText>(Resource.Id.tbText);
             swPrepinac = FindViewById<Switch>(Resource.Id.swPrepinac);
+            rbCervena = FindViewById<RadioButton>(Resource.Id.rbCervena);
+            rbModra = FindViewById<RadioButton>(Resource.Id.rbModra);
         }
 
         private void TbText_Click(object sender, System.EventArgs e) {
