@@ -1,14 +1,6 @@
-C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\UI prvky.dll
-C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\UI prvky.pdb
-C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\com.companyname.ui_prvky.apk
-C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\com.companyname.ui_prvky.aab
-C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\com.companyname.ui_prvky-Signed.aab
-C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\com.companyname.ui_prvky-Signed.apk
-C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\com.companyname.ui_prvky-Signed.apk.idsig
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\build.props
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\adb.props
-C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\UI prvky.csprojAssemblyReference.cache
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\stamp\_BuildLibraryImportsCache.stamp
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\res.flag
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\lp\38\jl\files.cache
@@ -24,6 +16,13 @@ C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\lp\71\jl\f
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\lp\72\jl\files.cache
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\lp\73\jl\files.cache
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\lp\74\jl\files.cache
+C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\UI prvky.dll
+C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\UI prvky.pdb
+C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\com.companyname.ui_prvky.apk
+C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\com.companyname.ui_prvky.aab
+C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\com.companyname.ui_prvky-Signed.aab
+C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\com.companyname.ui_prvky-Signed.apk
+C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\bin\Debug\com.companyname.ui_prvky-Signed.apk.idsig
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\R.txt
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\R.cs.flag
 C:\Users\Jarka\source\repos\Xam-relativeLayout\UI prvky\obj\Debug\110\UI prvky.csproj.CoreCompileInputs.cache
